@@ -1,0 +1,44 @@
+Mon, 19 Oct 2015 17:57:54 +0800	[256]MySQL Error[1146]: Table 'ecmall.ecm_my_money' doesn't exist
+MySQL Query:select * from ecm_my_money where user_id=2
+Wrong File:  D:\phpStudy\WWW\test.600gou.com\eccore\model\mysql.php[508]	\eccore\model\mysql.php	286
+Mon, 19 Oct 2015 18:02:45 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE=MyISAM DEFAULT CHARSET=utf8' at line 8
+MySQL Query:CREATE TABLE ecm_acategory (
+  cate_id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  cate_name varchar(100) NOT NULL DEFAULT '',
+  parent_id int(10) unsigned NOT NULL DEFAULT '0',
+  sort_order tinyint(3) unsigned NOT NULL DEFAULT '255',
+  `code` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (cate_id)
+) TYPE=MyISAM DEFAULT CHARSET=utf8
+Wrong File:  D:\phpStudy\WWW\test.600gou.com\admin\app\db.app.php[507]	\eccore\model\mysql.php	286
+Tue, 20 Oct 2015 00:20:53 +0800	[256]MySQL Error[1050]: Table 'ecm_my_money' already exists
+MySQL Query:CREATE TABLE ecm_my_money (
+
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `add_time` int(10) unsigned NULL,
+  `mibao_id` int(10) NOT NULL default '0',
+  `mibao_sn` varchar(30) NULL,
+  `user_id` int(10) unsigned NOT NULL default '0',
+  `user_name` varchar(100) NULL,
+  `bank_sn` varchar(100) NULL,
+  `bank_name` varchar(20) NULL,
+  `bank_username` varchar(20) NULL,
+  `bank_add` varchar(60) NULL,
+
+  `zf_pass` varchar(32) NULL,
+  `pass_tw` varchar(60) NULL,
+  `pass_hd` varchar(60) NULL,
+
+  `jifen_z` int(10) NOT NULL default '0',
+  `jifen` int(10) NOT NULL default '0',
+
+  `money_dj` decimal(10,2) NOT NULL default '0',
+  `money` decimal(10,2) NOT NULL default '0',
+
+  PRIMARY KEY  (id)
+) 
+ ENGINE = MYISAM CHARACTER SET utf8 COLLATE utf8_general_ci;
+Wrong File:  D:\phpStudy\WWW\test.600gou.com\external\modules\my_money\install.php[30]	\eccore\model\mysql.php	286
+Tue, 20 Oct 2015 00:21:10 +0800	[256]MySQL Error[1062]: Duplicate entry 'my_money' for key 'PRIMARY'
+MySQL Query:INSERT INTO ecm_module(module_id,module_name,module_desc,module_version,enabled) VALUES('my_money','商付通V2.2 final','安装以后，用户可以使用站内资金功能（卸载时请注意）','2.2','1')
+Wrong File:  D:\phpStudy\WWW\test.600gou.com\eccore\model\mysql.php[271]	\eccore\model\mysql.php	286

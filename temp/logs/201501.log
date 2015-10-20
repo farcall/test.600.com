@@ -1,0 +1,116 @@
+Sun, 04 Jan 2015 02:11:54 +0800	[256]MySQL Error[1050]: Table 'ecm_msg' already exists
+MySQL Query:CREATE TABLE ecm_msg (
+
+  id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  user_id int(10) unsigned NOT NULL DEFAULT '0',
+  user_name varchar(100) DEFAULT NULL,
+  mobile varchar(100) DEFAULT NULL,
+  num int(10) unsigned NOT NULL DEFAULT '0',
+  functions varchar(255) DEFAULT NULL,
+  state tinyint(3) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (id)
+) 
+ ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\external\modules\msg\install.php[17]	\eccore\model\mysql.php	286
+Mon, 12 Jan 2015 09:14:23 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Fri, 16 Jan 2015 17:44:28 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Sat, 17 Jan 2015 00:21:33 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Mon, 19 Jan 2015 15:02:07 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_article/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 15:02:11 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_article/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 15:02:17 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_article/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 15:02:24 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_register_open/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 15:02:34 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_register_open/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 15:39:41 +0800	[2]file_get_contents(http://wxmall.vchuang.cn/index.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+	\admin\app\template.app.php	285
+Mon, 19 Jan 2015 22:43:44 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_article/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 22:43:54 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_register_open/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Mon, 19 Jan 2015 22:44:06 +0800	[2]file_get_contents(C:\zhujibao\Domains\wxmall.vchuang.cn\public_html/external/widgets/taocz_article/main.widget.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory	\admin\app\widget.app.php	38
+Tue, 20 Jan 2015 14:03:39 +0800	[2]file_get_contents(http://wxmall.vchuang.cn/index.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+	\admin\app\template.app.php	285
+Tue, 20 Jan 2015 14:03:58 +0800	[2]file_get_contents(http://wxmall.vchuang.cn/index.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+	\admin\app\template.app.php	285
+Wed, 21 Jan 2015 00:24:06 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Wed, 21 Jan 2015 13:18:32 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Wed, 21 Jan 2015 13:18:59 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Wed, 21 Jan 2015 13:20:09 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Wed, 21 Jan 2015 13:28:32 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Sun, 25 Jan 2015 12:18:07 +0800	[2]file_get_contents(http://wxmall.vchuang.cn/index.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+	\admin\app\template.app.php	285
+Mon, 26 Jan 2015 14:19:24 +0800	[256]MySQL Error[1050]: Table 'ecm_msg' already exists
+MySQL Query:CREATE TABLE ecm_msg (
+
+  id int(10) unsigned NOT NULL AUTO_INCREMENT,
+  user_id int(10) unsigned NOT NULL DEFAULT '0',
+  user_name varchar(100) DEFAULT NULL,
+  mobile varchar(100) DEFAULT NULL,
+  num int(10) unsigned NOT NULL DEFAULT '0',
+  functions varchar(255) DEFAULT NULL,
+  state tinyint(3) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (id)
+) 
+ ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\external\modules\msg\install.php[17]	\eccore\model\mysql.php	286
+Mon, 26 Jan 2015 14:19:37 +0800	[256]MySQL Error[1062]: Duplicate entry 'msg' for key 'PRIMARY'
+MySQL Query:INSERT INTO ecm_module(module_id,module_name,module_desc,module_version,enabled) VALUES('msg','手机短信','安装以后，用户可以使用手机短信收发功能','1.0','0')
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[271]	\eccore\model\mysql.php	286
+Mon, 26 Jan 2015 15:02:20 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Mon, 26 Jan 2015 21:40:03 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Mon, 26 Jan 2015 21:40:11 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Mon, 26 Jan 2015 21:40:54 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 09:14:41 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id=2
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 09:15:30 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id=2
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 09:19:27 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id=2
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 11:40:27 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id=2
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 12:07:03 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 12:07:13 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Wed, 28 Jan 2015 16:05:23 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Thu, 29 Jan 2015 00:42:36 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id=2
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Thu, 29 Jan 2015 21:09:04 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id=2
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Fri, 30 Jan 2015 21:28:57 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286
+Fri, 30 Jan 2015 21:30:19 +0800	[256]MySQL Error[1146]: Table 'dt_wxmall_ws.ecm_msg' doesn't exist
+MySQL Query:select * from ecm_msg where user_id='2'
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[589]	\eccore\model\mysql.php	286

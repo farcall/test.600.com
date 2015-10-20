@@ -1,0 +1,8 @@
+Sat, 14 Feb 2015 13:19:31 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Sat, 14 Feb 2015 13:21:40 +0800	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT name,pid,goods_prop.pid FROM ecm_goods_prop goods_prop WHERE status=1 and pid=
+Wrong File:  C:\zhujibao\Domains\wxmall.vchuang.cn\public_html\eccore\model\mysql.php[534]	\eccore\model\mysql.php	286
+Thu, 26 Feb 2015 13:03:14 +0800	[2]file_put_contents(data/files/store_2/goods_194/201502261303146815.jpeg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory	\app\swfupload.app.php	178
+Thu, 26 Feb 2015 13:03:50 +0800	[2]file_put_contents(data/files/store_2/goods_30/201502261303502708.jpeg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory	\app\swfupload.app.php	178

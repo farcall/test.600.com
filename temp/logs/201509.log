@@ -1,0 +1,2 @@
+Fri, 18 Sep 2015 01:14:23 +0000	[2]mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource	\includes\payments\alipayplat\alipayplat.payment.php	50
+Fri, 18 Sep 2015 01:14:26 +0000	[2]mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource	\includes\payments\alipayplat\alipayplat.payment.php	50
